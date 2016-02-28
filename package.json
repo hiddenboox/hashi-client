@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "typings install",
     "build": "webpack",
     "dev": "webpack-dev-server --devtool eval --progress --colors --hot --inline --content-base src/"
   },
