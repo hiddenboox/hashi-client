@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "dist/",
+    "module": "commonjs",
+    "sourceMap": true
+  },
+  "files": [
+    "typings/main.d.ts",
+    "src/persistance/models/user-message.ts",
+    "src/persistance/index.ts",
+    "src/server.ts"
+  ],
+  "exclude": [
+    "typings/browser.d.ts",
+    "typings/browser",
+    "node_modules"
+  ]
+}
