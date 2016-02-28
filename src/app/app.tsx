@@ -1,9 +1,11 @@
+/// <reference path="..\..\typings\browser.d.ts" />
+
 import './styles/main.scss';
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
 ReactDOM.render(
-    <h1>Hello, world!</h1>,
-    document.body
+    <h1>Hello, world!!ss!</h1>,
+    document.getElementById('app')
 );
